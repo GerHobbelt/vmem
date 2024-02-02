@@ -7,7 +7,9 @@
 [![Coverage Status](https://codecov.io/github/pmem/vmem/coverage.svg?branch=master)](https://codecov.io/gh/pmem/vmem/branch/master)
 
 ## ⚠️ Discontinuation of the project
+
 The **libvmem** and **libvmmalloc** libraries will no longer be maintained by Intel.
+
 - Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases,
 or updates, to this project.
 - Intel no longer accepts patches to this project.
@@ -42,6 +44,7 @@ release page](https://github.com/pmem/vmem/releases). Specific installation
 instructions are outlined below.
 
 ## Contents
+
 1. [Libraries](#libraries)
 2. [Getting Started](#getting-started)
 3. [Version Conventions](#version-conventions)
@@ -61,7 +64,9 @@ instructions are outlined below.
 9. [Contact Us](#contact-us)
 
 ## Libraries
+
 Available Libraries:
+
 - [libvmem](http://pmem.io/vmem/libvmem/):  turns a pool of persistent memory into a volatile memory pool, similar to the system heap but kept separate and with its own malloc-style API.
 
 - [libvmmalloc](http://pmem.io/vmem/libvmmalloc/)<sup>1</sup>:  transparently converts all the dynamic memory allocations into persistent memory allocations.
